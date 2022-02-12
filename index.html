@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>JavierTeixeiraCV</title>
+</head>
+<body>
+    <!-- Titulo -->
+    <div class="welcome">
+        <hr>
+        <marquee>Bienvenidos, conozcan a: Javier Teixeira</marquee>
+        <hr>
+    </div>
+    <!-- Panel de navegacion -->
+    <nav class="principalBar">
+        <hr>
+        <br>
+        <a class="botonBar" href="#principal"> Principal:</a>
+        <a class="botonBar" href="#work"> Proyectos:</a>
+        <a class="botonBar" href="#personal"> Personal:</a>
+        <a class="botonBar" href="#habilities"> Habilidades:</a>
+        <a class="botonBar" href="#contactMe"> Contactame: </a>
+        <br>
+        <br>
+        <hr>
+    </nav>
+    <!-- Apartado de prologo "HERO" -->
+    <section class="hero" id="principal">
+        <hr>
+        <img class="leftImage" src="icon/iconArrowB.gif" alt="<<<<" width="400" height="600" id="izquierda">
+        <img src="img/me.jpg" alt="No encontrado" height="600px" id="galeria">
+        <img class="righImage" src="icon/iconArrowB.gif" alt=">>>>" width="400" height="600" id="derecha">
+    </section>
+    <hr>
+    <!-- Apartado de Proyectos: 1 Titulo -->        
+    <div class="hero">
+        <h2>Proyectos:</h2>
+    </div>
+    <hr>
+    <!-- Apartado de Proyectos: 2 Información -->        
+    <section class="exp" id="work">
+        <div class="expInfo">
+            <hr>
+            <h3 id="nameP"> Proyecto:</h3>
+            <hr>
+            <p id="tectP"> Tecnology:</p>
+            <p id="fechaP"> Fecha:</p>
+            <p id="urlP"> Enlace:</p>
+        </div>    
+        <div class="expInfoB">
+            <img class="imageControl" src="icon/sinImagen.gif" alt="Seleccione la barra lateral para mostrar un proyecto" id="imageP" width="400px" height="220px">
+        </div>    
+        <img class="righImageP" src="icon/iconArrowC.gif" alt=">>>>" width="550px" height="100px" id="derechaP">
+        <img class="leftImageP" src="icon/iconArrowC.gif" alt="<<<<" width="550px" height="100px" id="izquierdaP"> 
+    </section>
+    <hr>
+    <!-- Apartado de Informacion personal:-->
+    <section id="personal">
+        <div>
+            <h3 class="hero"> Informacion personal</h3>
+            <hr> 
+        </div>
+        <div class="exp">
+            <div class="personal">
+                <h4 class="myNameIs">
+                    Nombre: Javier Arturo Teixeira Goncalves
+                </h4>
+                <p class="myInfoIs">
+                    <b>Edad:</b> 20 años <br>
+                </p>
+                <p class="myInfoIs">
+                    <b>Objetivos a corto plazo:</b> Dominar la programacion en Python, JavaScript, Java, y Unity. <br>
+                    Empezar a trabajar como docente particular de alumnos de bachiderato en las areas de matematica y fisica.
+                </p>
+                <p class="myInfoIs">
+                    <b>Objetivos a largo Plazo:</b> Obtener el titulo universitario. <br>
+                    Hacer un postgrado en el extrangero.
+                </p>
+                <p class="myInfoIs">
+                    <b>Motivaciones:</b> Mi familia. <br> Mis Amigos. <br> El querer ser el mejor en lo que hago. <br>
+                </p>
+                <p class="myInfoIs">
+                    <b>Gustos:</b> Musica de cualquier genero. <br> Cine de accion. <br> Literatura contemporanea. <br>
+                </p>
+            </div>
+            <img class="profile" src="./img/mee.jpeg" alt="Imagen no encontrada" width="360px" height="360px">
+        </div>
+    </section>
+    <!-- Apartado de Habilidades -->
+    <section id="habilities">
+        <hr>
+        <div class="hero">
+            <h3>
+              Habilidades:  
+            </h3>
+            <hr>
+        </div>
+        <div class="exp">
+            <div class="expInfoB">
+                <h4> Lenguajes: </h4>
+                <p id="l1"> HTML:</p>
+                <p id="l2"> CSS:</p>
+                <p id="l3"> JavaScript:</p>
+                <p id="l4"> Python:</p>
+                <p id="l5"> Java:</p>
+                <br>
+                <p id="calificativo1"></p>
+                <p class="botoncito" id="botoncito1"> CONOCER</p>
+            </div>
+            <div class="expInfoB">
+                <h4> Estadisticas en general: </h4>
+                <p id="a1"> Mecanografia rapida:</p>
+                <p id="a2"> Uso Funciones:</p>
+                <p id="a3"> Uso Objetos:</p>
+                <p id="a4"> Deduccion de logica:</p>
+                <p id="a5"> Interfaces:</p>
+                <br>
+                <p id="calificativo2"></p>
+                <p class="botoncito" id="botoncito2"> CONOCER</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Apartado de contacto -->
+    <section id="contactMe">
+        <hr>
+        <div class="hero">
+            <h3>
+              Contactame para trabajar:  
+            </h3>
+            <hr>
+        </div>
+        <div class="exp">
+            <div class="expInfoB">
+                <h3>
+                    Dejame un mensaje:
+                </h3>
+                <form action="">
+                    <label for="nombre"> Nombre completo: </label>
+                    <input type="text" placeholder="Javier Arturo Teixeira Gonvalves" name="nombre" required>
+                    <br>
+                    <label for="correo"> correo electronico: </label>
+                    <input type="text" placeholder="elCorreoRandomDePepe@gmail.com" name="correo" required>
+                    <br>
+                    <hr>
+                    <textarea type="text" placeholder="mensaje..." name="texto" required></textarea>
+                    <br>
+                    <button type="submit">CONTACTAR</button>
+                </form>
+            </div>
+            <div class="expInfoB">
+                <h3>
+                    Comunicate conmigo por:
+                </h3>
+                <div>
+                    <img class="iconControl" src="./icon/facebook.png" alt="facebook" id="fb">
+                    <img class="iconControl" src="./icon/twitter.png" alt="twitter" id="tw">
+                    <img class="iconControl" src="./icon/instagram.png" alt="instagram" id="ig">
+                </div>
+                <div>
+                    <img class="iconControlQ" src="./icon/quora.png" alt="quora" id="qo">
+                    <img class="iconControlW" src="./icon/ws.png" alt="whattapp" id="ws">
+                </div>
+                <div class="finalLetter">
+                    <p>Telefono: +58-424-323-8366 <br> Correo: javierarturoteixeiragoncalves@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

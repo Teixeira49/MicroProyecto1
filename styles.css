@@ -1,0 +1,236 @@
+/* Fondo*/
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* Bienvenida */
+
+.welcome{
+    background-color:darkgreen;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:solid;
+    font-size: 39px;
+    font-style: italic;
+}
+
+/* NAVEGACION: */
+
+.principalBar {
+    background-color: seagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.botonBar {
+    padding: 3px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: darkgreen;
+    border-radius: 30px;
+}
+
+.botonBar:hover{
+    background-color: green;
+}
+/*===============================================================
+    Apartado Hero:
+=================================================================*/
+
+.hero{
+    text-align: center; /* Es reutilizado en varios titulos para el centrado*/
+    font-style: italic;
+}
+
+/* Para los botones de rotacion de hero*/
+
+.leftImage{
+    transform: scaleX(-1);
+    position: absolute;
+    right: 2.5em;
+    margin-bottom: 0.2em;
+    font-size: 30em;
+}
+
+.righImage{
+    position: absolute;
+    left: 2.5em;
+    margin-bottom: 0.2em;
+    font-size: 30em;
+}
+
+/*===============================================================
+    Apartado Experiencia: Apartado Contactame: Apartado Habilidades:
+=================================================================*/
+
+.exp{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.expInfo{
+    padding-top: 10px; 
+    padding-left: 10px; 
+    padding-bottom: 10px; 
+    padding-right: 10px;
+    border-radius: 9px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    width: 600px;
+    
+}
+
+.expInfoB{
+    text-align: center;
+    padding-top: 10px; 
+    padding-left: 10px; 
+    padding-bottom: 10px; 
+    padding-right: 10px;
+    border-radius: 9px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    width: 600px;
+    
+}
+
+.imageControl{
+    border-radius: 10px;
+}
+
+/* Para los botones de rotacion de proyecto*/
+
+.leftImageP{
+    transform: scaleX(-1);
+    position: relative;
+    margin-bottom: 0.2em;
+    margin-left: 15px;
+    scroll-behavior: smooth;
+}
+
+.righImageP{
+    position: relative;
+    margin-bottom: 0.2em;
+    margin-right: 15px;
+    scroll-behavior: smooth;
+}
+
+.iconControl {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.iconControlQ {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    border-radius: 90px;
+}
+
+.iconControlW {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    margin: 20px;
+}
+
+.finalLetter {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    line-height: 22px;
+}
+
+input {
+    font-family: 'Times New Roman', Times, serif;
+    width: 315px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    resize:unset;
+    width: 450px;
+    height: 150px;
+    margin: 5px;
+}
+
+/* Para habilidades: */
+
+.botoncito {
+    background-color: darkgreen;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.botoncito:hover{
+    background-color: green;
+}
+/*===============================================================
+    Apartado Personal:
+=================================================================*/
+
+.personal { /* ELementos de informacion personal*/
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    width: 820px;
+}
+
+.profile { /* Foto de perfil*/
+    padding: 10px;
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 90px;
+}
+
+.myNameIs {
+    background-color: darkgreen;
+    font-family:cursive;
+    font-style: oblique;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.myInfoIs {
+    padding: 5px;
+    margin: 3px;
+    text-align: left;
+    line-height: 22px;
+}
